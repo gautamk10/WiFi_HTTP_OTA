@@ -79,8 +79,10 @@ Current Version: 1.0.1
 Latest Version : 1.0.2
 ⬆️  New version detected. Starting OTA...
 ✅ OTA successful! Rebooting...
-<img width="300" height="300" alt="Screenshot 2025-07-31 143932" src="https://github.com/user-attachments/assets/a09da6a5-9888-4842-b9b0-3f952be999ec" />
-<img width="300" height="300" alt="Screenshot 2025-07-31 143335" src="https://github.com/user-attachments/assets/7cd2b510-9bb3-4aab-9bf9-6e3ab7f304b5" />
+
+
+<img width="400" height="400" alt="Screenshot 2025-07-31 143932" src="https://github.com/user-attachments/assets/a09da6a5-9888-4842-b9b0-3f952be999ec" />
+<img width="400" height="400" alt="Screenshot 2025-07-31 143335" src="https://github.com/user-attachments/assets/7cd2b510-9bb3-4aab-9bf9-6e3ab7f304b5" />
 
 
 
