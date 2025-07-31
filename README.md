@@ -60,12 +60,9 @@ Make sure to install the following libraries via the Arduino Library Manager:
 ---
 
 ## 🌐 WiFi Manager
-
 If no known WiFi credentials are available, a **captive portal** named `ESP32_Setup` (password: `admin123`) will appear.
 
 ## 📁 File Structure
-
-```
 WiFi_HTTP_OTA/
 │
 ├── firmware_v1.0.1.bin       <- Initial firmware binary
@@ -80,31 +77,20 @@ Currently, `client.setInsecure()` is used for simplicity.
 For production, implement **certificate pinning** or use a valid root certificate for better HTTPS security.
 
 ## 🧪 Sample Serial Output
-
-```
 ✅ WiFi Connected!
 Current Version: 1.0.1
 Latest Version : 1.0.2
 ⬆️  New version detected. Starting OTA...
 ✅ OTA successful! Rebooting...
-```
 
----
+
+
 
 ## 📜 License
-
 This project is licensed under the MIT License.
 
----
 
 ## 🙋‍♂️ Author
-
 **Gautam Kumar**
 🔗 [GitHub Profile](https://github.com/gautamk10)
 
----
-
-```
-
-Let me know if you want to include images, badges, or GitHub Actions for auto-build/firmware CI too.
-```
