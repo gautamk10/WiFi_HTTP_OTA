@@ -26,12 +26,12 @@ Make sure to install the following libraries via the Arduino Library Manager:
 - `WiFiClientSecure` (built-in)
 
 ## 🛠️ Setup Instructions
-1. **Clone the Repository**  
+1. Clone the Repository  
    ```bash
    git clone https://github.com/gautamk10/WiFi_HTTP_OTA.git
-````
 
-2. **Open the Sketch in Arduino IDE**
+
+2. Open the Sketch in Arduino IDE
    Ensure you have selected **ESP32 Dev Module** as the board and set the correct COM port.
 
 3. **Update `CURRENT_VERSION`**
@@ -39,7 +39,6 @@ Make sure to install the following libraries via the Arduino Library Manager:
 
    ```cpp
    #define CURRENT_VERSION "1.0.1"
-   ```
 
    Update this string with each firmware release.
 
@@ -57,8 +56,6 @@ Make sure to install the following libraries via the Arduino Library Manager:
 5. **Build & Upload**
    Upload the sketch via USB. Once connected to WiFi, the ESP32 will check for updates from GitHub.
 
----
-
 ## 🌐 WiFi Manager
 If no known WiFi credentials are available, a **captive portal** named `ESP32_Setup` (password: `admin123`) will appear.
 
@@ -70,7 +67,7 @@ WiFi_HTTP_OTA/
 ├── version.json              <- Contains latest version info
 ├── WiFi_HTTP_OTA.ino         <- Main source code
 └── README.md
-```
+
 ## 🔐 Security Note
 
 Currently, `client.setInsecure()` is used for simplicity.
@@ -82,8 +79,6 @@ Current Version: 1.0.1
 Latest Version : 1.0.2
 ⬆️  New version detected. Starting OTA...
 ✅ OTA successful! Rebooting...
-
-
 
 
 ## 📜 License
